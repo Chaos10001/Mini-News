@@ -1,0 +1,5 @@
+.color-hover:hover {
+  color: #15159e !important;
+  transition: 1s all ease-in;
+  margin-left: 3rem;
+}

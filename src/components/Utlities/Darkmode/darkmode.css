@@ -1,0 +1,24 @@
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+.mode .btn {
+  border-radius: 2rem !important;
+}
+.dark .mode {
+  background-color: white !important;
+}
+.light .mode .btn {
+  background-color: #333;
+  color: white;
+  border: none;
+}
+.pills{
+  cursor: pointer;
+  border-radius: 50% !important;
+}
+

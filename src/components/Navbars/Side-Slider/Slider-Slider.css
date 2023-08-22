@@ -1,0 +1,64 @@
+.dark .main {
+  height: 100%;
+  width: 15rem;
+  position: fixed;
+  top: 6rem;
+  left: -2rem;
+  background-color: rgba(255, 255, 255, 0.878);
+}
+.light .main {
+  height: 100%;
+  width: 15rem;
+  position: fixed;
+  top: 6rem;
+  left: -2rem;
+}
+.menu-item {
+  border-radius: 0.5rem;
+}
+.dark .menu-pill {
+  text-align: center;
+  background-color: #111c44;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  /* box-shadow: 0 0.75rem 1.5rem rgb(18 38 69 /3%); */
+  position: relative;
+  z-index: 200;
+}
+.light .menu-pill {
+  text-align: center;
+  background-color: #111c44;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  /* box-shadow: 0 0.75rem 1.5rem rgb(18 38 69 /3%); */
+  position: relative;
+  z-index: 200;
+}
+.menu-box {
+  overflow: hidden;
+  z-index: 5;
+  /* width: 100%; */
+  height: 5rem;
+}
+.light .menu-pill:hover {
+  color: #111c44 !important;
+  background-color: transparent;
+  font-weight: bolder;
+  transition: 1s all ease-in;
+}
+.dark .menu-pill:hover {
+  color: #111c44 !important;
+  background-color: transparent;
+  font-weight: bolder;
+  transition: 1s all ease-in;
+}

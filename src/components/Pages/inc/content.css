@@ -1,0 +1,9 @@
+.backgroundImg {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+    /* url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F004%2F216%2F831%2Foriginal%2F3d-world-news-background-loop-free-video.jpg&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-videos%2Fnews-background&tbnid=8hWFT1NCd6VSvM&vet=12ahUKEwik0KLj-uP8AhUXoycCHU-ODx8QMygAegUIARDzAQ..i&docid=rmahxeYgvRtVmM&w=3840&h=2160&q=news%20image&ved=2ahUKEwik0KLj-uP8AhUXoycCHU-ODx8QMygAegUIARDzAQ"); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* width: 100%; */
+}

@@ -1,0 +1,13 @@
+h1 {
+	font-family: monospace;
+}
+.nd {
+	position: relative;
+	right: -8rem;
+}
+@media (max-width: 460px) {
+	.nd {
+		position: relative;
+		right: 0;
+	}
+}
